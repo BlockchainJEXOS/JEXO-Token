@@ -111,6 +111,7 @@ public class JexoTokenHelper
 			return null;
 		}
 	}
+	// ETH to USD comparison API
 	static final String API_USD_VALUE = "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD";
 
 	static String[] getID_LoginIDFromInput(String inputData, Connection conn, PreparedStatement ps) throws Exception
